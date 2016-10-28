@@ -1,7 +1,7 @@
 <?php
 
 //导出DEMO
-
+include './cls_excel.php';
 header("Content-type: text/html; charset=utf-8");
 $et=new cls_excel();
 

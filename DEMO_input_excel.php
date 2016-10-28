@@ -1,5 +1,6 @@
 <?php
 //导入DEMO
+include './cls_excel.php';
 $et=new cls_excel();
 
 $filepath=dirname(__FILE__).'/20160701_20161028.xls';
